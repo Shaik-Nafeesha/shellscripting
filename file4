@@ -1,0 +1,9 @@
+echo " product of numbers from user input range "
+read start
+read end
+product=1
+for (( num=start; num<=end;num++ ))
+do
+   product=$(( product=$(( product * num ))
+done
+echo " the product of numbers from $start to $end is : & product "
