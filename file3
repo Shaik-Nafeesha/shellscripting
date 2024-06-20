@@ -1,0 +1,6 @@
+echo " given characters is vowels r not "
+read vowel
+if [ $vowels -eq aeiou ]
+then
+    echo " print $vowels "
+fi
