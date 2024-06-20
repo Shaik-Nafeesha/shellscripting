@@ -1,0 +1,8 @@
+echo " user Authentication "
+read username
+read password
+if [ username -eq admim -a password -eq testyantra123 ]
+then
+   echo " Authentication successfull "
+else
+   echo " Otherwise Unsuccessfull "
